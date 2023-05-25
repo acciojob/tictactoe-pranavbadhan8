@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+.container {
+   margin: auto;
+        width: 50%;
+      }
+
+      .board {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
+
+      .cell {
+        background-color: #eee;
+        border: 1px solid #999;
+        height: 100px;
+        text-align: center;
+        font-size: 50px;
+        cursor: pointer;
+      }
+
+      .cell:hover {
+        background-color: #ccc;
+      }
+
+      .message {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 10px;
+      }
